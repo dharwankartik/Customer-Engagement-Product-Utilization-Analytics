@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-df = pd.read_csv("../Data/customer_engagement_analysis.csv")
+df = pd.read_csv("customer_engagement_analysis.csv")
 
 st.title("Customer Engagement & Product Utilization Analytics")
 st.write("Retention Strategy Dashboard")
